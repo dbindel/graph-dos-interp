@@ -1,6 +1,7 @@
 MAIN=notes
+TEX=notes.tex intro.tex
 
-notes.pdf: notes.tex
+notes.pdf: $(TEX)
 	pdflatex $(MAIN).tex
 	bibtex $(MAIN)
 	pdflatex $(MAIN).tex

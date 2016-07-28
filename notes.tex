@@ -1,20 +1,102 @@
 \documentclass{amsart}
 
-\title{The Structure and Interpretation of Network Spectral Densities}
+\title{The Structure and Interpretation of \\
+  Network Spectral Densities \\
+  (Project Working Notes)}
 \author{David S.~Bindel}
 
 \begin{document}
 
 \maketitle
 
-\section{Introduction}
-\section{Definition}
-\section{The Matrix Zoo}
-\section{Extremal and Interior Modes}
-\section{Random Graph Spectra}
-\section{Localization and Symmetry}
-\section{Localization and Degree Variation}
-\section{Consequences of the Interlace Theorem}
+% - Introduction
+%   - Spectral theory in physics and geometry
+%   - Global DoS, matrix functions, and paths not taken
+%   - Discrete and continuous spectra, finite-size asymptotics
+\input{intro.tex}
+
+% - Linear algebra and graph theory
+%   - A little philosophy
+%   - Restriction to undirected graphs; comment on singular values
+%   - Global vs local (in space and spectrum)
+%   - Favorite references
+%   - Regular vs complex networks
+
+% - Definitions and basic properties
+%   - Spectral quantities (trace, determinant, etc)
+%   - The spectral mapping theorem
+%   - Eigenvalue problems and generalized eigenvalue problems
+%   - Variational characterization, optimization, and relations
+%   - The dynamics connection
+%   - Extremal vs interior eigenvalues
+%   - Spectral gaps and perturbation theory
+%   - Cheeger's inequality and relations
+%   - Lovasz-Siminovits and company
+%   - Weyl's law
+%   - Gershgorin (block and otherwise) and consequences
+
+% - Spectra and symmetry
+%   - Basic facts regarding representation of finite groups
+%   - Degeneracy and symmetry
+%   - Symmetry breaking
+%   - Implications for numerical methods
+
+% - Density of states
+%   - DoS and LDoS
+%   - Connection to the heat kernel trace
+%   - DoS and LDoS in physics
+%   - DoS and LDoS in geometry
+%   - Rational approximations and resonances
+
+% - The matrix zoo
+%   - Adjacency
+%   - Laplacian
+%   - Signless Laplacian
+%   - Modularity matrix
+%   - Random walk matrices
+%   - Normalized matrices
+%   - Quantum graphs
+
+% - Spectral graph analysis
+%   - Graph vs node indices; matrix functions
+%   - Algebraic connectivity
+%   - Interpretation of moments
+%   - Triangle counting
+%   - Estrada index and relatives
+%   - Cutting and clustering via extremal eigenvectors
+%   - PageRank and related quantities
+%   - Cycles and node centrality measures
+
+% - Krylov subspaces
+%   - Definition and choices of basis
+%   - Lanczos, Arnoldi, and company
+%   - The polynomial connection
+%   - The dynamics connection
+%   - Rayleigh-Ritz and extremal eigenvalues
+%   - The quadrature connection
+%   - Discrete orthogonal polynomial
+
+% - Numerical methods and connections
+%   - The graph-dos package
+%   - The humble power iteration
+%   - Rational and polynomial filters (FILTLAN, FEAST, etc)
+%   - The kernel polynomial method
+%   - Maximum entropy method
+%   - Filter diagonalization and signal processing methods
+%   - Randomized methods
+%   - Recent developments
+
+% - Random graph spectra
+%   - Semicircle law
+%   - Spectra in the `real world'
+%   - Actual network spectra
+
+% - Eigenvector localization
+%   - Localization via symmetry
+%   - Localization via degree variation
+%   - Localization and the interlace theorem
+%   - Uncertainty principles, Wannier functions, and approx localization
+%   - Finding localization
 
 \nocite{Chung:2003:Spectra}
 

@@ -7,6 +7,8 @@
     - Laplacian
     - normalized adjacency
     - signless Laplacian
+    - modularity
+    Artificial graphs: Erdos-Renyi, Barabasi, Watts-Strogatz, BTER
   - Color plotted graph layouts via LDoS spectral ordering
     (what happens if we use PageRank order?)
   - Anderson-like localization on road networks

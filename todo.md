@@ -42,7 +42,6 @@
     - Error estimate in earth-mover distance
   - LDoS
     - Improved diagonal estimators (use sparsity/decay?)
-    - Gauss quadrature / Lanczos for LDoS
   - Compression / alternate DoS formation
     - Maximum entropy method
     - Signal processing codes (Chebyshev-Pade and DoS)
@@ -51,5 +50,9 @@
     - SCDM based (see Damle, Lin, Ying)
     - L1 based (see Ozlins-Lai-Caflisch-Osher)
   - Code for spectral indices (Estrada, subgraph centrality, etc)
+    - Estrada (tr exp(A))
+    - Exponential subgraph centrality (diag exp(\beta A))
+    - Resolvent subgraph centrality (diag (I-alpha A)^{-1})
+    - Information centrality / current-flow centrality?
     - Error estimators for LDoS-based versions
   - Demos!
